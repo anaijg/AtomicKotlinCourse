@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="helloWorldExercise1.TestHelloWorldExercise1" tests="1" skipped="0" failures="1" errors="0" timestamp="2024-09-18T07:29:33" hostname="PORTATILANA" time="0.02">
+  <properties/>
+  <testcase name="test" classname="helloWorldExercise1.TestHelloWorldExercise1" time="0.02">
+    <failure message="java.lang.AssertionError: Can't find the 'Task.kt' file in 'helloWorldExercise1' package" type="java.lang.AssertionError">java.lang.AssertionError: Can't find the 'Task.kt' file in 'helloWorldExercise1' package
+	at util.UtilKt.notFoundError(util.kt:101)
+	at util.UtilKt.loadFileFacade(util.kt:344)
+	at util.UtilKt.loadFileFacade$default(util.kt:339)
+	at helloWorldExercise1.TestHelloWorldExercise1.test(Tests.kt:9)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+</failure>
+  </testcase>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
